@@ -11,6 +11,10 @@
 		2AA132BB2C949A80000C89E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA132BA2C949A80000C89E7 /* ContentView.swift */; };
 		2AA132BD2C949A83000C89E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA132BC2C949A83000C89E7 /* Assets.xcassets */; };
 		2AA132C02C949A83000C89E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA132BF2C949A83000C89E7 /* Preview Assets.xcassets */; };
+		2AA132C72C949B8B000C89E7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA132C62C949B8B000C89E7 /* ButtonView.swift */; };
+		2AA132C92C949D02000C89E7 /* CustomSliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA132C82C949D02000C89E7 /* CustomSliderRepresentation.swift */; };
+		2AA132CB2C95D3AA000C89E7 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA132CA2C95D3AA000C89E7 /* ContentViewViewModel.swift */; };
+		2AA132CF2C95EB3F000C89E7 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA132CE2C95EB3F000C89E7 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2AA132BA2C949A80000C89E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AA132BC2C949A83000C89E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA132BF2C949A83000C89E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AA132C62C949B8B000C89E7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2AA132C82C949D02000C89E7 /* CustomSliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderRepresentation.swift; sourceTree = "<group>"; };
+		2AA132CA2C95D3AA000C89E7 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		2AA132CE2C95EB3F000C89E7 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				2AA132B82C949A80000C89E7 /* SliderGameApp.swift */,
-				2AA132BA2C949A80000C89E7 /* ContentView.swift */,
+				2AA132D02C95FBA9000C89E7 /* Views */,
+				2AA132D12C95FBDF000C89E7 /* Services */,
 				2AA132BC2C949A83000C89E7 /* Assets.xcassets */,
 				2AA132BE2C949A83000C89E7 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				2AA132BF2C949A83000C89E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA132D02C95FBA9000C89E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA132BA2C949A80000C89E7 /* ContentView.swift */,
+				2AA132CE2C95EB3F000C89E7 /* SliderView.swift */,
+				2AA132C62C949B8B000C89E7 /* ButtonView.swift */,
+				2AA132C82C949D02000C89E7 /* CustomSliderRepresentation.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AA132D12C95FBDF000C89E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AA132CA2C95D3AA000C89E7 /* ContentViewViewModel.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA132BB2C949A80000C89E7 /* ContentView.swift in Sources */,
+				2AA132C92C949D02000C89E7 /* CustomSliderRepresentation.swift in Sources */,
 				2AA132B92C949A80000C89E7 /* SliderGameApp.swift in Sources */,
+				2AA132CF2C95EB3F000C89E7 /* SliderView.swift in Sources */,
+				2AA132C72C949B8B000C89E7 /* ButtonView.swift in Sources */,
+				2AA132CB2C95D3AA000C89E7 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
